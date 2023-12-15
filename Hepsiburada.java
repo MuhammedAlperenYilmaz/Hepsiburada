@@ -70,11 +70,7 @@ public class Hepsiburada {
         WebElement sendToTrash=driver.findElement(By.className("trash_button_3KWju"));
         sendToTrash.click();
         driver.close();
-        driver.manage().window().minimize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-        driver.manage().getCookies();
-        driver.navigate().back();
-        driver.manage().addCookie();
+
 
 
 //
