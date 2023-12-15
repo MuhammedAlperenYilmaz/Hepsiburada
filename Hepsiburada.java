@@ -70,13 +70,6 @@ public class Hepsiburada {
         WebElement sendToTrash=driver.findElement(By.className("trash_button_3KWju"));
         sendToTrash.click();
         driver.close();
-
-
-
-//
-
-        
-     
-    
+ 
 }
     }
